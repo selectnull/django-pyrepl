@@ -1,0 +1,18 @@
+[project]
+name = "django-pyrepl"
+version = "1.0.0"
+description = "Use Python 3.13 REPL with Django shell"
+readme = "README.md"
+authors = [
+    { name = "Sasha Matijasic", email = "sasha@selectnull.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3.13",
+    "Framework :: Django"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
