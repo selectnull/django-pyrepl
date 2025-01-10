@@ -15,19 +15,25 @@ becomes deprecated.
 
 ## Installation
 
-    uv add django_pyrepl
+```bash
+uv add django_pyrepl
+```
 
 Or if you really need to:
 
-    pip install django_pyrepl
+```bash
+pip install django_pyrepl
+```
 
 After that, simply add it to `INSTALLED_APPS` in your project `settings.py`
 
-    INSTALLED_APPS = [
-        ...
-        "django_pyrepl",
-        ...
-    ]
+```python
+INSTALLED_APPS = [
+    ...
+    "django_pyrepl",
+    ...
+]
+```
 
 ## Licence
 
